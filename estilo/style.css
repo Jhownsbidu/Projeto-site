@@ -7,6 +7,9 @@
 body{
     background-image: linear-gradient(to right, rgb(174, 174, 180), rgb(209, 162, 162));
 }
+header h1{
+    font-size: 40px;
+}
 main{
     background-color: white;
     width: 400px;
@@ -17,4 +20,16 @@ main{
     padding-top: 20px;
     box-shadow: 1px 1px 10px rgb(97, 96, 96);
 
+}
+main h2{
+    background-image: linear-gradient(to bottom, rgb(66, 66, 66), red);
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+main p{
+    text-indent: 20px;
+    line-height: 27px;
 }
